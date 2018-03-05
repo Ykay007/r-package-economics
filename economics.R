@@ -4,4 +4,3 @@ fisher <- function(paasche,laspeyres) {sqrt(paasche*laspeyres)}
 gdpdeflator <-function(nominalgdp,realgdp) {(nominalgdp/realgdp)}
 moneymultiplier <- function(reserveratio) {(1/reserveratio)}
 ruleof70 <- function(x) {(70/x)}
-moneysupply <- function(velocity,avgprice,quantity) {((avgprice*quantity)/(velocity))}
