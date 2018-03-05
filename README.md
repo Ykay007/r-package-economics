@@ -8,8 +8,6 @@ This is a simple package formulated in R for the purpose of calculating differen
 
 - Money Multiplier
 
-- Money Supply
-
 - Growth with rule of 70
 
 The packagecreation.R file is where the package is created and output is generated, while the economics.R file contains all the relevant functions incorporated into the package.
